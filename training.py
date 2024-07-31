@@ -8,7 +8,7 @@ import joblib
 # Load the expanded dataset
 data = pd.read_csv('data.csv')
 
-# Prepare the data
+
 X = data['text']
 y = data['label']
 
